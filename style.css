@@ -241,6 +241,9 @@ footer p {
 .color-white {
     background: white;
 }
+.cursor:hover {
+    cursor: pointer;
+}
 
 /* list area */
 #list-change-2 {
