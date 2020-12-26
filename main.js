@@ -27,7 +27,7 @@ fetch(apiUrl)
             var font = data.items[i];
             var url = font.files.regular;
             if(!url) continue; //if url is 404
-            newFont = new FontFace(font.family, "url(" + url + ")");
+            var newFont = new FontFace(font.family, "url(" + url + ")");
             document.fonts.add(newFont);
             fontsData.push(font.family);
             if(i==20) {
