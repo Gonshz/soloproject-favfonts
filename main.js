@@ -17,7 +17,7 @@ function loadingStateReset() {
 // get all fonts data from google fonts api and store in variable fontsData
 const fontsData = [];
 const APIKey = "AIzaSyA8j6SJmPPFHXEXswmlu9aoD6LYJA3z70s";
-const apiUrl = "http://www.googleapis.com/webfonts/v1/webfonts?sort=popularity&key=" + APIKey;
+const apiUrl = "https://www.googleapis.com/webfonts/v1/webfonts?sort=popularity&key=" + APIKey;
 fetch(apiUrl)
     .then(res => {
         return res.json();
