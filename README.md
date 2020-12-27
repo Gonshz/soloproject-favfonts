@@ -11,5 +11,9 @@ This project includes:
   * Light/dark mode switch
   * Changeable sample texts' font size
   * grid/list layout switch
-## Running the project
+## Running this project locally
+From the repo:
+1. Clone this project locally
+2. Open index.html in your browser  
+It is developed by vanilla Javascript and HTML, no frameworks and no libraries.
 ## Dependencies
