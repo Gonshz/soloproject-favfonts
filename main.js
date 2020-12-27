@@ -203,9 +203,8 @@ function resetAction() {
     sentenceChange();
     displaySearchedFonts("");
     resizeFont.call(fontSizes[1]);
-    listIcon.src = "./images/list1.svg";
-    const fontHolders = document.querySelectorAll(".font-holder");
-    fontHolders.forEach(f => f.classList.remove("font-holder-change"));
+    loadingState.listType = "full";
+    listAction();
 }
 
 //back to top action
