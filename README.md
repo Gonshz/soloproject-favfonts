@@ -10,9 +10,9 @@ This project includes:
 2. Fonts are searchable by its name
 3. Editable sample text 
 4. A cuples of functions for viewing
-  - Light/dark mode switch
-  - Changeable sample texts' font size
-  - grid/list layout switch
+   - Light/dark mode switch
+   - Changeable sample texts' font size
+   - grid/list layout switch
 ## Running this project locally
 From the repo:
 1. Clone this project locally
